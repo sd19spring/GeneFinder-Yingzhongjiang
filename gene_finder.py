@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-YOUR HEADER COMMENT HERE
+gene_finder_mini_project
 
-@author: YOUR NAME HERE
+@author: Anne.j
 
 """
 
@@ -14,10 +14,12 @@ from load import load_seq
 def shuffle_string(s):
     """Shuffles the characters in the input string
         NOTE: this is a helper function, you do not
-        have to modify this in any way """
+        have to modify this in any way
+    """
     return ''.join(random.sample(s, len(s)))
 
 # YOU WILL START YOUR IMPLEMENTATION FROM HERE DOWN ###
+
 
 
 def get_complement(nucleotide):
@@ -30,10 +32,26 @@ def get_complement(nucleotide):
     >>> get_complement('C')
     'G'
     """
+    # complement= ""
+    # for i in range(len(neucleotide)):
+    #     x= neucleotide[i]
+
+    if nucleotide == 'A':
+        return 'T'
+    elif nucleotide == 'T':
+        return 'A'
+    elif nucleotide == 'G':
+        return 'C'
+    elif nucleotide == 'C':
+        return 'G'
+#this handsome piece of code works; continue onward
+
     # TODO: implement this
-    pass
 
 
+
+
+#first flip, then find complement
 def get_reverse_complement(dna):
     """ Computes the reverse complementary sequence of DNA for the specfied DNA
         sequence
@@ -45,8 +63,18 @@ def get_reverse_complement(dna):
     >>> get_reverse_complement("CCGCGTTCA")
     'TGAACGCGG'
     """
+
+    dna_reversed = dna[::-1]
+    reversed_complement=''
+    for nucleotide in dna_reversed:
+        reversed_complement += get_complement(nucleotide)
+    return reversed_complement
+
     # TODO: implement this
-    pass
+
+
+
+
 
 
 def rest_of_ORF(dna):
@@ -63,8 +91,26 @@ def rest_of_ORF(dna):
     'ATGAGA'
     """
     # TODO: implement this
-    pass
 
+    stop_codon= set(['TAG', 'TAA', 'TGA'])
+    dna_reversed = dna[::-1]
+    x=dna.find(stop_codon)
+    cut_dna=''
+    for nucleotide in dna_reversed:
+        if x==nucleotide
+        cut_dna += get_reverse_complement(nucleotide)
+    return
+#commentary from inner peanut gallery:
+
+#this is where I stopped, and it is a sad partially baked lump of code... (sigh)
+#current brain thinkings for this, will eventually check it to see if it's viable:
+
+#define end codons (like TAG, TAA, TGA)
+#dna.find(end codons)
+#for loop: for all nucleotides in get_reverse_complement, if you see an end codon, return. meanwhile somehow add the += to make it a string of nucleotides
+#delete last three letters in the new cut dna string
+
+#going to ninja hours tomorrow
 
 def find_all_ORFs_oneframe(dna):
     """ Finds all non-nested open reading frames in the given DNA
@@ -112,6 +158,7 @@ def find_all_ORFs_both_strands(dna):
     # TODO: implement this
     pass
 
+#STOP HERE FOR MINIPROJECT PART 1
 
 def longest_ORF(dna):
     """ Finds the longest ORF on both strands of the specified DNA and returns it
