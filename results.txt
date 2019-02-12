@@ -1,0 +1,18 @@
+The organism that our amino acid chains most
+likely come from is the salmonella bacteria, specifically Salmonella enterica. Salmonella enterica is also known as Salmonella choleraesuis. Salmonella enterica is known for infecting animals and also a lot of our food.
+
+
+One amino acid chain is:
+"MSLRVRQIDRREWLLAQTATECQRHGREATLEYPTRQGMWVRLSDAEKRWSAWIKPGDWLEHVSPALAGAAVSAGAEHLVVPWLAATERPFELPVPHLSCRRLCVENPVPGSALPEGKLLHIMSDRGGLWFEHLPELPAVGGGRPKMLRWPLRFVIGSSDTQRSLLGRIGIGDVLLIRTSRAEVYCYAKKLGHFNRVEGGIIVETLDIQHIEEENNTTETAETLPGLNQLPVKLEFVLYRKNVTLAELEAMGQQQLLSLPTNAELNVEIMANGVLLGNGELVQMNDTLGVEIHEWLSESGNGE"
+Within protein BLAST, it is shown primarily to be Salmonella enterica, SPI-1 type III secretion system protein SpaO of gene SpaO.
+SPI-1 type III secretion system protein SpaO's function is to work as a protein secretion for the salmonella enterica bacteria. Secretion by salmonella are often involved during the invasion of a host's cells. In www.ncbi.nlm.nih.gov/pmc/articles/PMC94988, we see that this amino acid sequence is related to Salmonella enterica Serovar Typhimurium Type III Secretion-Associated Needle Complex: a part of Salmonella enterica's proteins create a needle complex that is used to enter through the host cell's membrane.
+
+
+A second amino acid chain is:
+"MSSNKTEKPTKKRLEDSAKKGQSFKSKDLIIACLTLGGIAYLVSYGSFNEFMGIIKIIIADNFDQSMADYSLAVFGIGLKYLIPFMLLCLVCSALPALLQAGFVLATEALKPNLSALNPVEGAKKLFSMRTVKDTVKTLLYLSSFVVAAIICWKKYKVEIFSQLNGNIVGIAVIWRELLLALVLTCLACALIVLLLDAIAEYFLTMKDMKMDKEEVKREMKEQEGNPEVKSKRREVHMEILSEQVKSDIENSRLIVANPTHITIGIYFKPELMPIPMISVYETNQRALAVRAYAEKVGVPVIVDIKLARSLFKTHRRYDLVSLEEIDEVLRLLVWLEEVENAGKDVIQPQENEVRH"
+Within protein BLAST, it is shown primarily to be Salmonella enterica, SPI-1 type III secretion system export apparatus protein SpaS of gene spaS. Like the previous amino acid chain, SPI-1 type III secretion system export apparatus protein SpaS is related to the secretion function of the salmonella enterica bacteria.
+
+
+A third amino acid chain found through Gene Finder is:
+"MGDVSAVSSSGNILLPQQDEVGGLSEALKKAVEKHKTEYSGDKKDRDYGDAFVMHKETALPLLLAAWRHGAPAKSEHHNGNVSGLHHNGKSELRIAEKLLKVTAEKSVGLISAEAKVDKSAALLSSKNRPLESVSGKKLSADLKAVESVSEVTDNATGISDDNIKALPGDNKAIAGEGVRKEGAPLARDVAPARMAAANTGKPEDKDHKKVKDVSQLPLQPTTIADLSQLTGGDEKMPLAAQSKPMMTIFPTADGVKGEDSSLTYRFQRWGNDYSVNIQARQAGEFSLIPSNTQVEHRLHDQWQNGNPQRWHLTRDDQQNPQQQQHRQQSGEEDDA"
+Within protein BLAST, it is shown primarily to be Salmonella enterica, PI-1 type III secretion system protein SpaN of gene SpaN. Like the first amino acid chain, SPI-1 type III secretion system protein SpaN is related to the secretion function of salmonella enterica bacteria.
